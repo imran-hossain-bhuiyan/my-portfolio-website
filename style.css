@@ -48,3 +48,123 @@
 #part-one .right-side{
     margin: 20px;
 }
+
+#second-part{
+    display: flex;
+    background: url(./images/dream-bg.png) no-repeat right;
+    margin-top: 100px;
+}
+
+#second-part .right-part{
+    margin-top: 70px;
+    margin-right: 20px;
+    margin-left: -90px;
+    width: 700px;
+}
+
+#second-part .left-part{
+    width: 50%;
+    margin-left: 100px;
+}
+
+#second-part .left-part img{
+    width: 70%;
+}
+#second-part .right-part h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+#second-part .right-part h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+#second-part .right-part p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: dimgray;
+    margin: 30px 0;
+}
+
+
+#second-part .right-part a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: linear-gradient(rgb(59, 243, 182),rgba(0, 255, 34, 0.959),rgb(0, 128, 85));
+}
+
+#bottom-part .parrent{
+    display: flex;
+    margin-left: 20px;
+}
+
+#bottom-part{
+    margin-top: 100px;
+    background: url(./images/exp-bg.png) no-repeat;
+    background-position-y: 150px;
+}
+
+#bottom-part h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+#bottom-part h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#bottom-part h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: rgb(212, 140, 5);
+    margin: 20px 0;
+}
+
+#bottom-part p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: dimgray;
+    width: 600px;
+    padding-bottom: 30px;
+}
+
+#bottom-part .card{
+    width: 40%;
+    margin-left: 50px;
+    -webkit-box-shadow: -1px 2px 25px 6px #676767; 
+    box-shadow: -1px 2px 25px 6px #676767;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+#bottom-part .left{
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(14, 171, 192), rgb(168, 50, 204))1;
+}
+
+#bottom-part .right{
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(192, 165, 14), rgb(50, 204, 178))1;
+}
+
+footer{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.61);
+    padding: 20px 0;
+    margin-top: 100px;
+}

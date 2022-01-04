@@ -1,10 +1,11 @@
-.container{
-    width: 1320px;
+*{
+    margin: 0;
+    padding: 0;
 }
-
 
 #part-one .left-side{
     width: 50%;
+    margin-top:100px;
     margin-left: 100px;
 }
 
@@ -29,10 +30,19 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: dimgray;
+    margin-bottom: 30px;
+}
+
+#part-one .left-side a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: linear-gradient(rgb(243, 142, 59),rgba(238, 255, 0, 0.705),rgb(90, 128, 0));
 }
 
 #part-one{
     display: flex;
+    background: url(./images/top-banner.png) no-repeat;
 }
 
 #part-one .right-side{

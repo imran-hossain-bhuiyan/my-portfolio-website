@@ -1,3 +1,13 @@
+.container{
+    width: 1320px;
+}
+
+
+#part-one .left-side{
+    width: 50%;
+    margin-left: 100px;
+}
+
 #part-one .left-side h1{
     font-family: 'Pushster', cursive;
     font-weight: 400;
@@ -6,4 +16,25 @@
 
 #part-one .left-side h1 .orange-color{
     color: orange;
+}
+
+#part-one .left-side h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+#part-one .left-side p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: dimgray;
+}
+
+#part-one{
+    display: flex;
+}
+
+#part-one .right-side{
+    margin: 20px;
 }
